@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="text-center">
+    <div className="text-center p-5">
       <div>Isobel Boddenham</div>
       <div>
         Veniam est do ullamco commodo occaecat. Tempor cillum ullamco velit laborum nulla 
