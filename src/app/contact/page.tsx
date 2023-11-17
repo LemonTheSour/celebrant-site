@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-  <div className="h-36">
-    <EmailContactForm />
-  </div>
-    )
+    <div className="h-36">
+      <EmailContactForm />
+    </div>
+  );
 }
