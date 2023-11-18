@@ -25,7 +25,7 @@ export default function EmailContactForm() {
 
     emailjs
       .sendForm(
-        "service_pnwts59",
+        "service_4wcjxcy",
         "template_zxhdy06",
         formRef.current,
         "9uyhLgylxvHhWYuXX"
@@ -55,7 +55,9 @@ export default function EmailContactForm() {
         <textarea {...register("messageContent")} />
       </div>
 
-      <button type="submit">Submit</button>
+      <button type="submit" value="Send">
+        Submit
+      </button>
     </form>
   );
 }
