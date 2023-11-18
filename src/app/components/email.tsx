@@ -42,20 +42,35 @@ export default function EmailContactForm() {
   };
 
   return (
-    <form onSubmit={onSubmit} ref={formRef}>
-      <div>
-        <label>Name</label>
-        <input {...register("from_name")} />
-      </div>
-      <div>
-        <label>Email Address</label>
-        <input {...register("email")} />
-      </div>
-      <div>
-        <textarea {...register("messageContent")} />
-      </div>
+    <div className="flex justify-center p-20">
+      <form
+        onSubmit={onSubmit}
+        ref={formRef}
+        className="flex flex-col items-start p-10 border-sunset border-4 w-1/2 h-3/4 bg-white"
+      >
+        <div className="flex flex-col w-3/4">
+          <label>Name</label>
+          <input
+            {...register("from_name")}
+            className="border-sunset border-2"
+          />
+        </div>
+        <div className="flex flex-col w-3/4">
+          <label>Email Address</label>
+          <input {...register("email")} className="border-sunset border-2" />
+        </div>
+        <div className="flex flex-col justify-center w-3/4">
+          <label>Say Hi!</label>
+          <textarea
+            {...register("messageContent")}
+            className="border-sunset border-2 resize-none"
+          />
+        </div>
 
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit" className="bg-sunset mt-2 w-1/4">
+          Send
+        </button>
+      </form>
+    </div>
   );
 }
