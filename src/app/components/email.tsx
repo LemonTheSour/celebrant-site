@@ -1,7 +1,7 @@
 "use client";
 
 import { useForm } from "react-hook-form";
-import { FormEvent, HTMLInputTypeAttribute, useRef, useState } from "react";
+import { FormEvent, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function EmailContactForm() {

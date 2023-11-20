@@ -1,5 +1,4 @@
 import type { Config } from 'tailwindcss'
-
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,9 +8,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'photo1': "url(./assets/images/photo1.jpg)",
+        'photo2': "url(./assets/images/photo2.jpg)",
+        'photo3': "url(./assets/images/photo3.jpeg)",
+        'photo4': "url(./assets/images/photo4.jpg)",
       },
       colors:{
         'sunset': '#ffbe5c'
