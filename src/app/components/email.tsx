@@ -42,35 +42,46 @@ export default function EmailContactForm() {
   };
 
   return (
-    <div className="flex justify-center p-20">
-      <form
-        onSubmit={onSubmit}
-        ref={formRef}
-        className="flex flex-col items-start p-10 border-sunset border-4 w-1/2 h-3/4 bg-white"
-      >
-        <div className="flex flex-col w-3/4">
-          <label>Name</label>
-          <input
-            {...register("from_name")}
-            className="border-sunset border-2"
-          />
-        </div>
-        <div className="flex flex-col w-3/4">
-          <label>Email Address</label>
-          <input {...register("email")} className="border-sunset border-2" />
-        </div>
-        <div className="flex flex-col justify-center w-3/4">
-          <label>Say Hi!</label>
-          <textarea
-            {...register("message")}
-            className="border-sunset border-2 resize-none"
-          />
-        </div>
+    <div className="flex h-screen justify-center p-20">
+      <div className="p-10 border-sunset border-4 w-1/2 bg-white">
+        <h1 className="flex justify-center">Contact Me By Email!</h1>
+        <form
+          onSubmit={onSubmit}
+          ref={formRef}
+          className="flex flex-col items-start"
+        >
+          <div className="flex flex-col w-3/4">
+            <label>Name</label>
+            <input
+              {...register("from_name")}
+              className="border-sunset border-2"
+            />
+          </div>
+          <div className="flex flex-col w-3/4">
+            <label>Email Address</label>
+            <input {...register("email")} className="border-sunset border-2" />
+          </div>
+          <div className="flex flex-col justify-center w-3/4">
+            <label>Say Hi!</label>
+            <textarea
+              {...register("message")}
+              className="border-sunset border-2 resize-none"
+            />
+          </div>
 
-        <button type="submit" className="bg-sunset mt-2 w-1/4">
-          Send
-        </button>
-      </form>
+          <button type="submit" className="bg-sunset mt-2 w-1/4">
+            Send
+          </button>
+        </form>
+        <div className="flex flex-col pt-8 justify-center">
+          <h1>Contact Me By Mobile!</h1>
+          <div>0444 444 444</div>
+        </div>
+        <div className="flex flex-col pt-8 justify-center">
+          <h1>Contact Me Via Facebook!</h1>
+          <div>Facebook Link</div>
+        </div>
+      </div>
     </div>
   );
 }
