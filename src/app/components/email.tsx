@@ -8,7 +8,7 @@ export default function EmailContactForm() {
   interface HTMLInputTypeAttribute {
     from_name: String;
     email: String;
-    messageContent: String;
+    message: String;
   }
 
   const {
@@ -62,7 +62,7 @@ export default function EmailContactForm() {
         <div className="flex flex-col justify-center w-3/4">
           <label>Say Hi!</label>
           <textarea
-            {...register("messageContent")}
+            {...register("message")}
             className="border-sunset border-2 resize-none"
           />
         </div>
