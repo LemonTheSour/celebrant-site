@@ -17,7 +17,11 @@ export default function Faq() {
       </div>
       <div className="flex flex-col items-center pt-10">
         {QAData.map((questions) => (
-          <Question Question={questions.question} Answer={questions.answer} />
+          <Question
+            key={questions.key}
+            Question={questions.question}
+            Answer={questions.answer}
+          />
         ))}
       </div>
     </div>
