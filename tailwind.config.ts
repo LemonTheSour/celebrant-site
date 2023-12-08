@@ -15,7 +15,7 @@ const config: Config = {
       },
       colors:{
         'sunset': '#ffbe5c'
-      }
+      },
     },
   },
   plugins: [],
