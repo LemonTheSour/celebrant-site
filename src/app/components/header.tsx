@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FacebookIcon from "./facebook";
 
 export default function Header() {
   return (
@@ -13,7 +14,7 @@ export default function Header() {
       </div>
       <div>
         <Link href="https://www.facebook.com/search/top?q=isobel%20bodenham%20marriage%20celebrant">
-          Facebook
+          <FacebookIcon />
         </Link>
       </div>
     </header>
