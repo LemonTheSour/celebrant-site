@@ -1,11 +1,19 @@
+import FacebookIcon from "./facebook";
+import Link from "next/link";
 export default function Footer() {
   return (
-    <div className="bg-sunset flex pt-4 h-36 content-center justify-center space-x-10 border-t-4 border-sunset-dark">
+    <div className="bg-sunset flex pt-4 h-36 justify-center text-center space-x-10 border-t-4 border-sunset-dark">
       <div>
         <div>Isobel</div>
         <div>Mobile : 0444 444 444</div>
-        <div>email : example@email.com.au</div>
-        <div>Facebook</div>
+        <div>Email : example@email.com.au</div>
+        <Link
+          href={
+            "https://www.facebook.com/search/top?q=isobel%20bodenham%20marriage%20celebrant"
+          }
+        >
+          <FacebookIcon />
+        </Link>
       </div>
     </div>
   );
