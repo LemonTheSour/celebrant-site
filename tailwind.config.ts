@@ -14,7 +14,8 @@ const config: Config = {
         'photo4': "url(./assets/images/photo4.jpg)",
       },
       colors:{
-        'sunset': '#ffbe5c'
+        'sunset': '#ffbe5c',
+        'sunset-dark': '#e3a850'
       },
     },
   },
