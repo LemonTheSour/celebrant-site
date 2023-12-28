@@ -11,8 +11,8 @@ export default function Question({ Question, Answer }: QuestionProps) {
   const [openModal, setOpenModal] = useState(false);
   if (openModal) {
     return (
-      <div className="w-1/2">
-        <div className="flex justify-between bg-sunset-light">
+      <div>
+        <div className="flex justify-between pr-2 bg-sunset-light">
           <div className="text-5xl m-2">{Question}</div>
           <button
             onClick={() => {
@@ -29,8 +29,8 @@ export default function Question({ Question, Answer }: QuestionProps) {
     );
   }
   return (
-    <div className="w-1/2">
-      <div className="flex justify-between">
+    <div>
+      <div className="flex justify-between pr-2">
         <div className="text-5xl m-2">{Question}</div>
         <button
           onClick={() => {
