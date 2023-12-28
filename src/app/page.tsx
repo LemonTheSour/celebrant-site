@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -8,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <div>
-        <div className="bg-photo1 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-0">
-          <div className="w-full h-screen flex pt-20 content-center justify-end align-center">
-            <div className="bg-white w-5/6 border-sunset border-4 h-3/4 rounded-s-full"></div>
+        <div className="flex justify-center bg-photo1 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-0">
+          <div className="w-1/2 h-screen flex items-center">
+            <div className="rounded-full h-64 w-64"></div>
           </div>
         </div>
         <div className="bg-sunset h-64 w-full z-10"></div>

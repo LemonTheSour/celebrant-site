@@ -12,10 +12,12 @@ const config: Config = {
         'photo2': "url(./assets/images/photo2.jpg)",
         'photo3': "url(./assets/images/photo3.jpeg)",
         'photo4': "url(./assets/images/photo4.jpg)",
+        'photo5': "url(./assets/images/photo5.jpg)",
       },
       colors:{
         'sunset': '#ffbe5c',
-        'sunset-dark': '#e3a850'
+        'sunset-dark': '#e3a850',
+        'sunset-light': '#ffdeab'
       },
     },
   },

@@ -7,22 +7,18 @@ export const metadata: Metadata = {
 
 export default function Faq() {
   return (
-    <div className="flex flex-col h-screen items-center">
-      <div className="pt-10">
-        <p>
-          The best way to find all the answers you need is to ask directly!
-          Until we get a chance to chat, here's a few things to help you get
-          started!
-        </p>
-      </div>
-      <div className="flex flex-col items-center pt-10">
-        {QAData.map((questions) => (
-          <Question
-            key={questions.key}
-            Question={questions.question}
-            Answer={questions.answer}
-          />
-        ))}
+    <div className="flex h-screen justify-center bg-photo5">
+      <div className="flex flex-col h-auto items-center bg-white border-sunset border-4 p-10 mt-20">
+        <div className="text-6xl">Frequently Asked Questions</div>
+        <div className="flex flex-col items-center pt-10">
+          {QAData.map((questions) => (
+            <Question
+              key={questions.key}
+              Question={questions.question}
+              Answer={questions.answer}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
