@@ -12,32 +12,32 @@ export default function Question({ Question, Answer }: QuestionProps) {
   if (openModal) {
     return (
       <div>
-        <div className="flex justify-between pr-2 bg-sunset-light">
+        <div className="flex justify-between p-4 bg-sunset-light">
           <div className="text-5xl m-2">{Question}</div>
           <button
             onClick={() => {
               setOpenModal(!openModal);
             }}
           >
-            <FaMinus />
+            <FaMinus size={24} />
           </button>
         </div>
         <div>
-          <div className="text-3xl">{Answer}</div>
+          <div className="text-3xl p-4 border-b-4 border-sunset">{Answer}</div>
         </div>
       </div>
     );
   }
   return (
     <div>
-      <div className="flex justify-between pr-2">
+      <div className="flex justify-between p-4 border-b-4 border-sunset">
         <div className="text-5xl m-2">{Question}</div>
         <button
           onClick={() => {
             setOpenModal(!openModal);
           }}
         >
-          <FaPlus />
+          <FaPlus size={24} />
         </button>
       </div>
     </div>

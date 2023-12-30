@@ -10,7 +10,7 @@ export default function Faq() {
     <div className="flex h-screen justify-center bg-photo5">
       <div className="flex flex-col w-1/2 h-auto items-center bg-white border-sunset border-4 p-10 mt-20">
         <div className="text-6xl">Frequently Asked Questions</div>
-        <div className="flex flex-col w-1/2 text-start sitems-center pt-10">
+        <div className="flex flex-col w-3/4 text-start sitems-center pt-10">
           {QAData.map((questions) => (
             <Question
               key={questions.key}
