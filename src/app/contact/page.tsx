@@ -10,12 +10,14 @@ export default function Contact() {
   return (
     <div className="flex justify-center relative w-full h-screen bg-photo6 bg-cover">
       <div className="pt-5 mt-20 w-1/2 h-3/4 border-sunset border-4 bg-white">
-        <div className="text-6xl text-center">Contact Me!</div>
+        <div className="text-3xl text-center">
+          The Quickest Way to Find Out Is Ask, So Ask!
+        </div>
         <div className="flex h-5/6 justify-between divide-x-2">
           <div className="w-1/2 pt-10">
             <EmailContactForm />
           </div>
-          <div className="w-1/2 p-12 space-y-8">
+          <div className="w-1/2 p-12 pt-16 space-y-16">
             <div className="flex justify-start items-center space-x-8 text-2xl">
               <FaEnvelope size={32} />
               <div>example@bigpond.com</div>

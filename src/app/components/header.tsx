@@ -3,7 +3,7 @@ import FacebookIcon from "./facebook";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-center bg-white p-2 h-16 sticky top-0 z-50 border-b-2 border-sunset">
+    <header className="flex items-center justify-center bg-white p-2 h-24 sticky top-0 z-50 border-b-2 border-sunset">
       <div className="flex justify-between items-center justify-center w-4/6">
         <div>
           <Link href="/">Isobel</Link>
