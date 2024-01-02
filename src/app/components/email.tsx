@@ -46,7 +46,7 @@ export default function EmailContactForm() {
       <form
         onSubmit={onSubmit}
         ref={formRef}
-        className="flex flex-col items-start w-5/6"
+        className="flex flex-col items-start w-5/6 space-y-8"
       >
         <div className="flex flex-col w-full">
           <label>Name</label>
