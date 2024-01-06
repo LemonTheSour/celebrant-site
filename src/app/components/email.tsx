@@ -48,22 +48,22 @@ export default function EmailContactForm() {
         ref={formRef}
         className="flex flex-col items-start w-5/6 space-y-8"
       >
-        <div className="flex flex-col w-full text-2xl">
+        <div className="flex flex-col w-full text-xl">
           <label>Name</label>
           <input
             {...register("from_name")}
-            className="border-sunset border-4"
+            className="border-sunset border-2"
           />
         </div>
-        <div className="flex flex-col w-full text-2xl">
+        <div className="flex flex-col w-full text-xl">
           <label>Email Address</label>
-          <input {...register("email")} className="border-sunset border-4" />
+          <input {...register("email")} className="border-sunset border-2" />
         </div>
-        <div className="flex flex-col justify-center w-full text-2xl">
+        <div className="flex flex-col justify-center w-full text-xl">
           <label>Say Hi!</label>
           <textarea
             {...register("message")}
-            className="border-sunset h-48 border-4 resize-none"
+            className="border-sunset h-48 border-2 resize-none"
           />
         </div>
 

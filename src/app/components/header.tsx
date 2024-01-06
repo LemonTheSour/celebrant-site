@@ -9,11 +9,17 @@ export default function Header() {
           <Link href="/">Isobel</Link>
         </div>
         <div className="space-x-8">
-          <Link href="/">Home</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/faq">FAQ</Link>
+          <Link href="/" className="hover:text-sunset">
+            Home
+          </Link>
+          <Link href="/contact" className="hover:text-sunset">
+            Contact
+          </Link>
+          <Link href="/faq" className="hover:text-sunset">
+            FAQ
+          </Link>
         </div>
-        <div>
+        <div className="hover:text-sky-700">
           <Link href="https://www.facebook.com/search/top?q=isobel%20bodenham%20marriage%20celebrant">
             <FacebookIcon />
           </Link>

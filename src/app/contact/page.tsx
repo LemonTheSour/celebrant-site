@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <div className="flex justify-center relative w-full h-screen bg-photo6 bg-cover">
-      <div className="pt-5 mt-20 w-1/2 h-3/4 border-sunset border-4 bg-white">
+      <div className="pt-5 mt-20 w-4/6 h-3/4 border-sunset border-4 bg-white">
         <div className="text-3xl text-center">
           The Quickest Way to Find Out Is Ask, So Ask!
         </div>
@@ -27,7 +27,7 @@ export default function Contact() {
               <div>0444 444 444</div>
             </div>
             <Link
-              className="flex justify-start items-center space-x-8 text-2xl"
+              className="flex justify-start items-center space-x-8 text-2xl hover:text-sky-700"
               href="https://www.facebook.com/search/top?q=isobel%20bodenham%20marriage%20celebrant"
             >
               <FaFacebookSquare size={32} />
