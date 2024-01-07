@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import { Italianno } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
+import Carousel from "./components/carousel/carousel";
+import slides from "./Data/carousel.json";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -37,7 +39,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="bg-sunset h-32 w-full z-10"></div>
+      <div className="flex bg-sunset h-32 w-full z-10 text-black text-center items-center justify-center">
+        Everything starts with a sunrise, but its what we do before it sets that
+        matters
+      </div>
 
       {/* Second Scroll Page */}
       <div className="flex justify-center items-center bg-photo2 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-1">
@@ -46,27 +51,37 @@ export default function Home() {
             <Image
               src={"/images/photo6.jpg"}
               alt={"Isobel"}
-              layout="fill"
+              style="fill"
               className="rounded rotate-3 drop-shadow-2xl"
             />
           </div>
-          <div className="pl-20 w-1/2 text-white text-xl">
-            Amet duis sint adipisicing nostrud adipisicing labore mollit tempor
-            sunt reprehenderit voluptate. Proident ut veniam consectetur
-            deserunt do commodo culpa ex cupidatat Lorem id. Sunt excepteur
-            consectetur magna sit eu magna Lorem fugiat. Aliquip fugiat aute
-            magna eu et excepteur anim laboris commodo ut officia amet
-            incididunt. Cillum Lorem proident minim ut et. Lorem id. Sunt
-            excepteur consectetur magna sit eu magna Lorem fugiat. Aliquip
-            fugiat aute magna eu et excepteur anim laboris commodo ut officia
-            amet incididunt. Cillum Lorem proident minim ut et.
+          <div className="w-1/2 pl-20 text-white text-xl">
+            <div className="pb-10">
+              Amet duis sint adipisicing nostrud adipisicing labore mollit
+              tempor sunt reprehenderit voluptate. Proident ut veniam
+              consectetur deserunt do commodo culpa ex cupidatat Lorem id. Sunt
+              excepteur consectetur magna sit eu magna Lorem fugiat. Aliquip
+              fugiat aute magna eu et excepteur anim laboris commodo ut officia
+              amet incididunt. Cillum Lorem proident minim ut et. Lorem id. Sunt
+              excepteur consectetur magna sit eu magna Lorem fugiat. Aliquip
+              fugiat aute magna eu et excepteur anim laboris commodo ut officia
+              amet incididunt. Cillum Lorem proident minim ut et.
+            </div>
+            <div>
+              Lorem proident minim ut et. Lorem id. Sunt excepteur consectetur
+              magna sit eu magna Lorem fugiat. Aliquip fugiat aute magna eu et
+              excepteur anim laboris commodo ut officia amet incididunt. Cillum
+              Lorem proident minim ut et.
+            </div>
           </div>
         </div>
       </div>
       <div className="bg-sunset h-32 w-full z-10"></div>
       {/* Third Scroll Page */}
       <div>
-        <div className="bg-photo4 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-3"></div>
+        <div className="flex justify-center items-center bg-photo4 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-3">
+          <Carousel />
+        </div>
       </div>
     </div>
   );
