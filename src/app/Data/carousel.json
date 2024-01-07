@@ -1,18 +1,15 @@
 [
   {
     "key": "1",
-    "text":"Some Text 1",
-    "colour": "#34cfeb"
+    "text":"Some Text 1"
   },
   {
     "key": "2",
-    "text":"Some Text 2",
-    "colour": "#7a3691"
+    "text":"Some Text 2"
   },
   {
     "key": "3",
-    "text":"Some Text 3",
-    "colour": "#fff305"
+    "text":"Some Text 3"
   }
   
 ]

@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 import { Italianno } from "next/font/google";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Carousel from "./components/carousel/carousel";
-import slides from "./Data/carousel.json";
+import Slide from "./components/carousel/slide";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -51,8 +51,8 @@ export default function Home() {
             <Image
               src={"/images/photo6.jpg"}
               alt={"Isobel"}
-              style="fill"
-              className="rounded rotate-3 drop-shadow-2xl"
+              layout="fill"
+              className="rounded rotate-3"
             />
           </div>
           <div className="w-1/2 pl-20 text-white text-xl">
