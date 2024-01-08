@@ -3,7 +3,6 @@ import { Italianno } from "next/font/google";
 import Link from "next/link";
 import Image from "next/legacy/image";
 import Carousel from "./components/carousel/carousel";
-import Slide from "./components/carousel/slide";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -78,10 +77,13 @@ export default function Home() {
       </div>
       <div className="bg-sunset h-32 w-full z-10"></div>
       {/* Third Scroll Page */}
-      <div>
-        <div className="flex justify-center items-center bg-photo4 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-3">
-          <Carousel />
+      <div className="flex flex-col items-center bg-photo4 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-3">
+        <div
+          className={`text-8xl text-white text-center mt-20 ${italianno.className}`}
+        >
+          Services
         </div>
+        <Carousel />
       </div>
     </div>
   );

@@ -12,8 +12,6 @@ export interface CarouselProps {
 export default function Carousel() {
   const [curr, setCurr] = useState(0);
 
-  const cards = slides;
-
   const next = () => {
     setCurr((curr) => (curr == 0 ? slides.length - 1 : curr - 1));
   };
@@ -22,13 +20,18 @@ export default function Carousel() {
     setCurr((curr) => (curr == slides.length - 1 ? 0 : curr + 1));
   };
   return (
-    <div className="flex items-center justify-center overflow-hidden relative">
+    <div className="flex items-center w-4/6 h-1/2 justify-center overflow-hidden relative">
       <div
-        className="flex h-80 w-96 transition-transform ease-out duration-500"
+        className="flex min-h-full min-w-full transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}
       >
         {slides.map((slide) => (
-          <Slide key={slide.key} text={slide.text} />
+          <Slide
+            key={slide.key}
+            text={slide.text}
+            heading={slide.header}
+            icon={slide.icon}
+          />
         ))}
       </div>
       <div className="flex absolute inset-0 items-center justify-between p-4">
