@@ -1,14 +1,20 @@
 import { Metadata } from "next";
-import { Italianno } from "next/font/google";
+import { Italianno, Quintessential } from "next/font/google";
 import Link from "next/link";
 import Image from "next/legacy/image";
 import Carousel from "./components/carousel/carousel";
+import Divider from "./components/divider";
 
 export const metadata: Metadata = {
   title: "Home",
 };
 
 const italianno = Italianno({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+const quintissential = Quintessential({
   weight: "400",
   subsets: ["latin"],
 });
@@ -38,10 +44,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="flex bg-sunset h-32 w-full z-10 text-black text-center items-center justify-center">
-        Everything starts with a sunrise, but its what we do before it sets that
-        matters
-      </div>
+      <Divider
+        text="Everything starts with a sunrise, but its what we do before it sets that
+        matters"
+      />
 
       {/* Second Scroll Page */}
       <div className="flex justify-center items-center bg-photo2 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-1">
@@ -54,7 +60,9 @@ export default function Home() {
               className="rounded rotate-3"
             />
           </div>
-          <div className="w-1/2 pl-20 text-white text-xl">
+          <div
+            className={`w-1/2 pl-20 text-white text-xl ${quintissential.className}`}
+          >
             <div className="pb-10">
               Amet duis sint adipisicing nostrud adipisicing labore mollit
               tempor sunt reprehenderit voluptate. Proident ut veniam
@@ -75,14 +83,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-sunset h-32 w-full z-10"></div>
+      <Divider
+        text="Everything starts with a sunrise, but its what we do before it sets that
+        matters"
+      />
       {/* Third Scroll Page */}
       <div className="flex flex-col items-center bg-photo4 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-3">
-        <div
-          className={`text-8xl text-white text-center mt-20 ${italianno.className}`}
-        >
-          Services
-        </div>
         <Carousel />
       </div>
     </div>

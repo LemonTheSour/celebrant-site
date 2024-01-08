@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import slides from "../../Data/carousel.json";
 import Slide from "./slide";
+import { IconContext } from "react-icons";
 
 export interface CarouselProps {
   Key: String;
@@ -35,12 +36,14 @@ export default function Carousel() {
         ))}
       </div>
       <div className="flex absolute inset-0 items-center justify-between p-4">
-        <button>
-          <FaChevronLeft size={20} onClick={next} />
-        </button>
-        <button>
-          <FaChevronRight size={20} onClick={prev} />
-        </button>
+        <IconContext.Provider value={{ color: "white" }}>
+          <button>
+            <FaChevronLeft size={20} onClick={next} />
+          </button>
+          <button>
+            <FaChevronRight size={20} onClick={prev} />
+          </button>
+        </IconContext.Provider>
       </div>
     </div>
   );

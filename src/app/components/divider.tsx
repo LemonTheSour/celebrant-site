@@ -1,7 +1,11 @@
-export default function Divier(){
-    return(
-        <div className="bg-sunset w-full h-24 absolute z-10">
-            <div>Divider</div>
-        </div>
-    )
+export interface dividerProps {
+  text: String;
+}
+
+export default function Divier({ text }: dividerProps) {
+  return (
+    <div className="flex items-center justify-center bg-sunset h-24 w-full z-10">
+      <div>{text}</div>
+    </div>
+  );
 }
