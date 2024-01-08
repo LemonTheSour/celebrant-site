@@ -57,7 +57,7 @@ export default function Home() {
               src={"/images/photo6.jpg"}
               alt={"Isobel"}
               layout="fill"
-              className="rounded rotate-3"
+              className="rotate-3"
             />
           </div>
           <div

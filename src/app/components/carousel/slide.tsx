@@ -14,7 +14,7 @@ const quintissential = Quintessential({
 export default function Slide({ text, heading, icon }: slideProps) {
   return (
     <div className="flex min-h-full min-w-full text-white justify-center text-center">
-      <div className="pt-10 w-5/6">
+      <div className="pt-20 w-5/6">
         <div className="text-6xl pb-12">{heading}</div>
         <div className={`text-2xl pb-12 ${quintissential.className}`}>
           {text}
