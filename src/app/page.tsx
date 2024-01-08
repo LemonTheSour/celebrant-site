@@ -83,10 +83,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Divider
-        text="Everything starts with a sunrise, but its what we do before it sets that
-        matters"
-      />
+      <Divider text="Marriage is the sunrise of love" />
       {/* Third Scroll Page */}
       <div className="flex flex-col items-center bg-photo4 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-3">
         <Carousel />
