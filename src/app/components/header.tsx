@@ -1,30 +1,20 @@
-import Link from "next/link";
-import FacebookIcon from "./facebook";
+import { FaHeart } from "react-icons/fa";
 
-export default function Header() {
+interface headerProps {
+  text: String;
+}
+
+export default function Header({ text }: headerProps) {
   return (
-    <header className="flex items-center justify-center bg-white p-2 h-24 sticky top-0 z-50 border-b-2 border-sunset">
-      <div className="flex justify-between items-center justify-center w-4/6">
-        <div>
-          <Link href="/">Isobel</Link>
+    <div>
+      <div className="text-6xl text-white">{text}</div>
+      <div className="relative flex py-5 items-center">
+        <div className="flex-grow border-t border-white"></div>
+        <div className="flex-shrink mx-4 text-white">
+          <FaHeart />
         </div>
-        <div className="space-x-8">
-          <Link href="/" className="hover:text-sunset">
-            Home
-          </Link>
-          <Link href="/contact" className="hover:text-sunset">
-            Contact
-          </Link>
-          <Link href="/faq" className="hover:text-sunset">
-            FAQ
-          </Link>
-        </div>
-        <div className="hover:text-sky-700">
-          <Link href="https://www.facebook.com/search/top?q=isobel%20bodenham%20marriage%20celebrant">
-            <FacebookIcon />
-          </Link>
-        </div>
+        <div className="flex-grow border-t border-white"></div>
       </div>
-    </header>
+    </div>
   );
 }

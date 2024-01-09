@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { IconContext } from "react-icons";
 import slides from "../../Data/carousel.json";
 import Slide from "./slide";
-import { IconContext } from "react-icons";
 
 export interface CarouselProps {
   Key: String;

@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/legacy/image";
 import Carousel from "./components/carousel/carousel";
 import Divider from "./components/divider";
+import Header from "./components/header";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -37,7 +38,7 @@ export default function Home() {
           </div>
 
           <Link
-            className="flex bg-sunset w-64 h-20 text-2xl items-center justify-center rounded text-white"
+            className="flex bg-sunset w-64 h-20 text-2xl items-center justify-center rounded text-white hover:bg-sunset-light"
             href={"/contact"}
           >
             Contact
@@ -50,14 +51,15 @@ export default function Home() {
       />
 
       {/* Second Scroll Page */}
-      <div className="flex justify-center items-center bg-photo2 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-1">
+      <div className="flex flex-col justify-center items-center bg-photo2 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-1">
+        <Header text="Kalgoorlie Marriage Celebrant" />
         <div className="flex w-4/6 pl-20 pb-60">
           <div className="w-80 h-96 relative">
             <Image
               src={"/images/photo6.jpg"}
               alt={"Isobel"}
               layout="fill"
-              className="rotate-3"
+              className="rotate-3 p-20"
             />
           </div>
           <div
