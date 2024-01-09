@@ -67,7 +67,10 @@ export default function EmailContactForm() {
           />
         </div>
 
-        <button type="submit" className="bg-sunset mt-2 w-4/6 h-12">
+        <button
+          type="submit"
+          className="bg-sunset mt-2 w-4/6 h-12 hover:bg-sunset-light"
+        >
           Send
         </button>
       </form>

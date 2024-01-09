@@ -9,6 +9,7 @@ export interface QuestionProps {
 
 export default function Question({ Question, Answer }: QuestionProps) {
   const [openModal, setOpenModal] = useState(false);
+
   if (openModal) {
     return (
       <div>
