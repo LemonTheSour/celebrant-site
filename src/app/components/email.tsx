@@ -3,6 +3,8 @@
 import { useForm } from "react-hook-form";
 import { FormEvent, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import * as dotenv from "dotenv";
+dotenv.config();
 
 export default function EmailContactForm() {
   interface HTMLInputTypeAttribute {

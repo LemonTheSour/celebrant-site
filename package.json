@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "dotenv": "^16.3.1",
     "email-js": "^2.0.2",
     "emailjs": "^4.0.3",
     "next": "14.0.2",
@@ -19,7 +20,7 @@
     "react-icons": "^4.12.0"
   },
   "devDependencies": {
-    "@types/node": "^20.10.0",
+    "@types/node": "^20.10.7",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
