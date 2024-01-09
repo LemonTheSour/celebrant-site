@@ -53,7 +53,7 @@ export default function Home() {
       {/* Second Scroll Page */}
       <div className="flex flex-col justify-center items-center bg-photo2 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-1">
         <Header text="Kalgoorlie Marriage Celebrant" />
-        <div className="flex w-4/6 pl-20 pb-60">
+        <div className="flex justify-center content-center w-4/6 pl-20 pb-60">
           <div className="w-80 h-96 relative">
             <Image
               src={"/images/photo6.jpg"}

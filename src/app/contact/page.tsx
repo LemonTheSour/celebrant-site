@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <div className="flex justify-center relative w-full h-screen bg-photo6 bg-cover">
-      <div className="pt-5 mt-20 w-4/6 h-3/4 border-sunset border-4 bg-white">
+      <div className="pt-5 mt-20 w-4/6 h-3/4 bg-white">
         <div className="text-3xl text-center">
           The Quickest Way to Find Out Is Ask, So Ask!
         </div>
