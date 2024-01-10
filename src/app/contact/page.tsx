@@ -21,11 +21,11 @@ export default function Contact() {
           <div className="w-1/2 p-12 pt-16 space-y-16">
             <div className="flex justify-start items-center space-x-8 text-2xl">
               <FaEnvelope size={32} />
-              <div>example@bigpond.com</div>
+              <div>boulderblock@bigpond.com</div>
             </div>
             <div className="flex justify-start items-center space-x-8 text-2xl">
               <FaMobile size={32} />
-              <div>0444 444 444</div>
+              <div>0417 950 699</div>
             </div>
             <Link
               className="flex justify-start items-center space-x-8 text-2xl hover:text-sky-700"

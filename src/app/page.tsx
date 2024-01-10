@@ -33,8 +33,8 @@ export default function Home() {
             <div>Marriage Celebrant</div>
           </div>
           <div className="text-center text-white pt-12 pb-8 text-2xl">
-            <div>mobile: 0444 444 444</div>
-            <div>email: example@bigpond.com.au</div>
+            <div>Mobile: 0417 950 699</div>
+            <div>Email: boulderblock@bigpond.com</div>
           </div>
 
           <Link

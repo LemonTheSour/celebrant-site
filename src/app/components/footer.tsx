@@ -5,8 +5,8 @@ export default function Footer() {
     <div className="bg-sunset flex pt-4 h-36 justify-center text-center">
       <div>
         <div>Isobel</div>
-        <div>Mobile : 0444 444 444</div>
-        <div>Email : example@email.com.au</div>
+        <div>Mobile : 0417 950 699</div>
+        <div>Email : boulderblock@bigpond.com</div>
         <Link href={"https://www.facebook.com/CelebrantKalgoorlieBoulder"}>
           <FacebookIcon />
         </Link>
