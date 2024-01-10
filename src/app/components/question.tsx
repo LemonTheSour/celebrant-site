@@ -24,23 +24,21 @@ export default function Question({ Question, Answer }: QuestionProps) {
           </button>
         </div>
         <div>
-          <div className="text-2xl p-4 border-b-4 border-sunset">{Answer}</div>
+          <div className="text-2xl p-4 border-b-2 border-sunset">{Answer}</div>
         </div>
       </div>
     );
   }
   return (
-    <div>
-      <div className="flex justify-between p-4 border-b-4 border-sunset">
-        <div className="text-2xl m-2">{Question}</div>
-        <button
-          onClick={() => {
-            setOpenModal(!openModal);
-          }}
-        >
-          <FaPlus size={16} />
-        </button>
-      </div>
+    <div className="flex justify-between p-4 border-b-2 border-sunset">
+      <div className="text-2xl m-2">{Question}</div>
+      <button
+        onClick={() => {
+          setOpenModal(!openModal);
+        }}
+      >
+        <FaPlus size={16} />
+      </button>
     </div>
   );
 }

@@ -3,11 +3,8 @@ import FacebookIcon from "./facebook";
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-center bg-white p-2 h-24 z-50">
-      <div className="flex justify-between items-center justify-center w-4/6 text-2xl">
-        <div>
-          <Link href="/">Isobel</Link>
-        </div>
+    <nav className="flex absolute w-full items-center justify-center p-2 h-24 z-50">
+      <div className="flex justify-between items-center justify-center w-4/6 text-white text-2xl">
         <div className="space-x-8">
           <Link href="/" className="hover:text-sunset">
             Home
