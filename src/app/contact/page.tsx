@@ -28,7 +28,7 @@ export default function Contact() {
             </div>
             <Link
               className="flex justify-start items-center space-x-8 text-2xl hover:text-sky-700"
-              href="https://www.facebook.com/search/top?q=isobel%20bodenham%20marriage%20celebrant"
+              href="https://www.facebook.com/CelebrantKalgoorlieBoulder"
             >
               <FaFacebookSquare size={32} />
               <div>Facebook</div>

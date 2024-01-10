@@ -7,11 +7,7 @@ export default function Footer() {
         <div>Isobel</div>
         <div>Mobile : 0444 444 444</div>
         <div>Email : example@email.com.au</div>
-        <Link
-          href={
-            "https://www.facebook.com/search/top?q=isobel%20bodenham%20marriage%20celebrant"
-          }
-        >
+        <Link href={"https://www.facebook.com/CelebrantKalgoorlieBoulder"}>
           <FacebookIcon />
         </Link>
       </div>

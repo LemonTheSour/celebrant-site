@@ -17,7 +17,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="hover:text-sky-700">
-          <Link href="https://www.facebook.com/search/top?q=isobel%20bodenham%20marriage%20celebrant">
+          <Link href="https://www.facebook.com/CelebrantKalgoorlieBoulder">
             <FacebookIcon />
           </Link>
         </div>
