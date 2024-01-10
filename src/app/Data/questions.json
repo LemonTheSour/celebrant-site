@@ -7,7 +7,7 @@
   {
     "key": "2",
     "question": "When Are You Available?",
-    "answer": "Your best bet will be to inquire! That said, certain legal requirements mean we need at least 2 months notice."
+    "answer": "Your best bet will be to inquire! That said, certain legal requirements mean we need at least 1 months notice."
   },
   {
     "key": "3",
@@ -30,19 +30,19 @@
     "answer": "I operate out of kalgoorlie-boulder, but am available to travel to surrounding regions under the the right circumstanes."
   },
   {
-    "key": "4",
-    "question": "What services do you provide?",
-    "answer": "Wedding, Baby Name Days and Vow Renewals, while I am qualified to handle funerals, if you are in the kalgoorlie-boulder region I can pass on recommendations."
+    "key": "7",
+    "question": "How long have you been practicing?",
+    "answer": "I've been helping join people together for almost a certain number of years now."
   },
   {
-    "key": "5",
-    "question": "How far in advance should I send out invitations?",
-    "answer": "Wedding invitations should be sent out at least 9 months in advance."
+    "key": "8",
+    "question": "When can I contact you?",
+    "answer": "Feel free to send an email or a text message through any time, but my working hours at 9-5 during the week, I will respond or be available for a phone call then"
   },
   {
-    "key": "6",
-    "question": "Where are you located?",
-    "answer": "I operate out of kalgoorlie-boulder, but am available to travel to surrounding regions under the the right circumstanes."
+    "key": "9",
+    "question": "How can I contact you?",
+    "answer": "I can be reached through mobile, email or through direct message from our facebook page."
   }
   
 ]

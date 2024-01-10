@@ -52,24 +52,27 @@ export default function EmailContactForm() {
           <label>Name</label>
           <input
             {...register("from_name")}
-            className="border-sunset border-2"
+            className="border-sunset border-2 rounded focus:outline-none focus:shadow-md"
           />
         </div>
         <div className="flex flex-col w-full text-xl">
           <label>Email Address</label>
-          <input {...register("email")} className="border-sunset border-2" />
+          <input
+            {...register("email")}
+            className="border-sunset border-2 rounded focus:outline-none focus:shadow-md"
+          />
         </div>
         <div className="flex flex-col justify-center w-full text-xl">
           <label>Say Hi!</label>
           <textarea
             {...register("message")}
-            className="border-sunset h-48 border-2 resize-none"
+            className="border-sunset h-48 border-2 resize-none rounded focus:outline-none focus:shadow-md"
           />
         </div>
 
         <button
           type="submit"
-          className="bg-sunset mt-2 w-4/6 h-12 hover:bg-sunset-light"
+          className="bg-sunset mt-2 w-4/6 h-12 hover:bg-sunset-light rounded"
         >
           Send
         </button>

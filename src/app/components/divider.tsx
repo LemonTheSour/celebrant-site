@@ -11,7 +11,7 @@ const italianno = Italianno({
 
 export default function Divier({ text }: dividerProps) {
   return (
-    <div className="flex items-center text-5xl justify-center bg-sunset h-24 w-full z-10">
+    <div className="flex items-center text-5xl justify-center bg-sunset h-16 w-full z-10">
       <div className={italianno.className}>{text}</div>
     </div>
   );

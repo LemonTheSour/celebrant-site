@@ -29,7 +29,7 @@ export default function Home() {
           <div
             className={`text-9xl text-white text-center mt-40 ${italianno.className}`}
           >
-            <div className="block">Isobel Boddenham</div>
+            <div className="block">Isobel Bodenham</div>
             <div>Marriage Celebrant</div>
           </div>
           <div className="text-center text-white pt-12 pb-8 text-2xl">

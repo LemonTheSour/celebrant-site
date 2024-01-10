@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="text-3xl text-center">
           The Quickest Way to Find Out Is Ask, So Ask!
         </div>
-        <div className="flex h-5/6 justify-between divide-x-2">
+        <div className="flex h-5/6 justify-between divide-x-2 pt-6">
           <div className="w-1/2 pt-10">
             <EmailContactForm />
           </div>
