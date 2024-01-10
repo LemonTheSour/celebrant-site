@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import EmailContactForm from "../components/email";
 import { FaMobile, FaEnvelope, FaFacebookSquare } from "react-icons/fa";
 import Link from "next/link";
+
 export const metadata: Metadata = {
   title: "Contact",
 };

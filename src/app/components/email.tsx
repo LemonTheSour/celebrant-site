@@ -1,8 +1,9 @@
 "use client";
 
 import { useForm } from "react-hook-form";
-import { FormEvent, useRef } from "react";
+import { FormEvent, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Modal from "./modal";
 
 export default function EmailContactForm() {
   interface HTMLInputTypeAttribute {
@@ -10,6 +11,8 @@ export default function EmailContactForm() {
     email: String;
     message: String;
   }
+
+  const [open, setOpen] = useState(false);
 
   const {
     register,
@@ -31,10 +34,10 @@ export default function EmailContactForm() {
         process.env.NEXT_PUBLIC_EMAILJS_USER_ID as string
       )
       .then(
-        (result: { text: any }) => {
-          console.log("Success!");
+        (result: { text: string }) => {
+          setOpen(true);
         },
-        (error: { text: any }) => {
+        (error: { text: string }) => {
           console.log("Error!");
         }
       );
@@ -77,6 +80,11 @@ export default function EmailContactForm() {
           Send
         </button>
       </form>
+      <Modal
+        open={open}
+        onSuccess={() => setOpen(true)}
+        onClose={() => setOpen(false)}
+      />
     </div>
   );
 }
