@@ -64,7 +64,7 @@ export default function Home() {
               />
             </div>
             <div
-              className={`w-1/2 pl-20 text-white h-80 text-lg 2xl:text-2xl ${quintissential.className}`}
+              className={`w-1/2 pl-20 text-white h-80 text-sm xl:text-lg 2xl:text-2xl ${quintissential.className}`}
             >
               <div className="pb-10">
                 For a professional, personal and pleasant experience, I'm here
