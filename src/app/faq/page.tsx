@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Question from "../components/question";
 import QAData from "../Data/questions.json";
+
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
 };
