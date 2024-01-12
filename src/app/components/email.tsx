@@ -49,7 +49,7 @@ export default function EmailContactForm() {
       <form
         onSubmit={onSubmit}
         ref={formRef}
-        className="flex flex-col items-start w-5/6 2xl:space-y-8"
+        className="flex flex-col items-start w-5/6 3xl:space-y-8"
       >
         <div className="flex flex-col w-full text-md 2xl:text-xl">
           <label>Name</label>
