@@ -14,11 +14,11 @@ export default function Contact() {
         <div className="text-3xl text-center">
           The Quickest Way to Find Out Is Ask, So Ask!
         </div>
-        <div className="flex h-5/6 justify-between divide-x-2 pt-6">
-          <div className="w-1/2 pt-10">
+        <div className="flex h-5/6 justify-between divide-x-2 2xl:pt-6">
+          <div className="w-1/2 2xl:pt-10">
             <EmailContactForm />
           </div>
-          <div className="w-1/2 p-12 pt-16 space-y-16">
+          <div className="w-1/2 p-12 2xl:pt-16 space-y-8 2xl:space-y-16">
             <div className="flex justify-start items-center space-x-8 text-md 2xl:text-2xl">
               <FaEnvelope size={32} />
               <div>boulderblock@bigpond.com</div>

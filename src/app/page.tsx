@@ -32,13 +32,13 @@ export default function Home() {
             <div className="block">Isobel Bodenham</div>
             <div>Marriage Celebrant</div>
           </div>
-          <div className="text-center text-white pt-12 pb-8 text-2xl">
+          <div className="text-center text-white pt-12 pb-8 text-xl 2xl:text-2xl">
             <div>Mobile: 0417 950 699</div>
             <div>Email: boulderblock@bigpond.com</div>
           </div>
 
           <Link
-            className="flex bg-sunset w-64 h-20 text-2xl items-center justify-center rounded text-white hover:bg-sunset-light"
+            className="flex bg-sunset w-48 h-16 2xl:w-64 2xl:h-20 text-2xl items-center justify-center rounded text-white hover:bg-sunset-light"
             href={"/contact"}
           >
             Contact
