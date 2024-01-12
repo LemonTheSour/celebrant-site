@@ -27,13 +27,14 @@ export default function Contact() {
               <FaMobile size={32} />
               <div>0417 950 699</div>
             </div>
-            <Link
+            <a
               className="flex justify-start items-center space-x-8 text-md 2xl:text-2xl hover:text-sky-700"
+              target="_blank"
               href="https://www.facebook.com/CelebrantKalgoorlieBoulder"
             >
               <FaFacebookSquare size={32} />
               <div>Facebook</div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

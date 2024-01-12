@@ -7,9 +7,12 @@ export default function Footer() {
         <div>Isobel</div>
         <div>Mobile : 0417 950 699</div>
         <div>Email : boulderblock@bigpond.com</div>
-        <Link href={"https://www.facebook.com/CelebrantKalgoorlieBoulder"}>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/CelebrantKalgoorlieBoulder"
+        >
           <FacebookIcon />
-        </Link>
+        </a>
       </div>
     </div>
   );

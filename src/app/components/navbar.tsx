@@ -20,9 +20,12 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="hover:text-sky-700">
-          <Link href="https://www.facebook.com/CelebrantKalgoorlieBoulder">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/CelebrantKalgoorlieBoulder"
+          >
             <FacebookIcon />
-          </Link>
+          </a>
         </div>
       </div>
     </nav>
