@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <div className="flex justify-center relative w-full h-screen bg-photo6 bg-cover">
-      <div className="pt-5 mt-40 w-4/6 h-3/4 bg-white">
+      <div className="pt-5 mt-40 w-4/6 h-4/6 2xl:h-3/4 bg-white">
         <div className="text-3xl text-center">
           The Quickest Way to Find Out Is Ask, So Ask!
         </div>
@@ -19,16 +19,16 @@ export default function Contact() {
             <EmailContactForm />
           </div>
           <div className="w-1/2 p-12 pt-16 space-y-16">
-            <div className="flex justify-start items-center space-x-8 text-2xl">
+            <div className="flex justify-start items-center space-x-8 text-md 2xl:text-2xl">
               <FaEnvelope size={32} />
               <div>boulderblock@bigpond.com</div>
             </div>
-            <div className="flex justify-start items-center space-x-8 text-2xl">
+            <div className="flex justify-start items-center space-x-8 text-md 2xl:text-2xl">
               <FaMobile size={32} />
               <div>0417 950 699</div>
             </div>
             <Link
-              className="flex justify-start items-center space-x-8 text-2xl hover:text-sky-700"
+              className="flex justify-start items-center space-x-8 text-md 2xl:text-2xl hover:text-sky-700"
               href="https://www.facebook.com/CelebrantKalgoorlieBoulder"
             >
               <FaFacebookSquare size={32} />

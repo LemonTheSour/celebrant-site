@@ -7,7 +7,7 @@ interface headerProps {
 export default function Header({ text }: headerProps) {
   return (
     <div>
-      <div className="text-6xl text-white">{text}</div>
+      <div className="text-4xl 2xl:text-6xl text-white">{text}</div>
       <div className="relative flex py-5 items-center">
         <div className="flex-grow border-t border-white"></div>
         <div className="flex-shrink mx-4 text-white">

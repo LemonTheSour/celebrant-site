@@ -27,7 +27,7 @@ export default function Home() {
       <div className="flex justify-center bg-photo1 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-0">
         <div className="flex w-4/6 flex-col items-center">
           <div
-            className={`text-9xl text-white text-center mt-40 ${italianno.className}`}
+            className={`text-7xl 2xl:text-9xl text-white text-center mt-40 ${italianno.className}`}
           >
             <div className="block">Isobel Bodenham</div>
             <div>Marriage Celebrant</div>
@@ -51,36 +51,41 @@ export default function Home() {
       />
 
       {/* Second Scroll Page */}
-      <div className="flex flex-col justify-center items-center bg-photo2 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-1">
-        <Header text="Kalgoorlie Marriage Celebrant" />
-        <div className="flex justify-center content-center w-4/6 pl-20 pb-60">
-          <div className="w-80 h-96 relative">
-            <Image
-              src={"/images/photo6.jpg"}
-              alt={"Isobel"}
-              layout="fill"
-              className="rotate-3 p-20"
-            />
-          </div>
-          <div
-            className={`w-1/2 pl-20 text-white text-xl ${quintissential.className}`}
-          >
-            <div className="pb-10">
-              Amet duis sint adipisicing nostrud adipisicing labore mollit
-              tempor sunt reprehenderit voluptate. Proident ut veniam
-              consectetur deserunt do commodo culpa ex cupidatat Lorem id. Sunt
-              excepteur consectetur magna sit eu magna Lorem fugiat. Aliquip
-              fugiat aute magna eu et excepteur anim laboris commodo ut officia
-              amet incididunt. Cillum Lorem proident minim ut et. Lorem id. Sunt
-              excepteur consectetur magna sit eu magna Lorem fugiat. Aliquip
-              fugiat aute magna eu et excepteur anim laboris commodo ut officia
-              amet incididunt. Cillum Lorem proident minim ut et.
+      <div className="bg-photo2 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-1">
+        <div className="flex flex-col justify-center items-center pt-20">
+          <Header text="Kalgoorlie Marriage Celebrant" />
+          <div className="flex justify-center content-center w-4/6 pl-20 pb-60">
+            <div className="w-64 h-80 2xl:h-96 2xl:w-80 relative">
+              <Image
+                src={"/images/photo6.jpg"}
+                alt={"Isobel"}
+                layout="fill"
+                className="rotate-3 p-20"
+              />
             </div>
-            <div>
-              Lorem proident minim ut et. Lorem id. Sunt excepteur consectetur
-              magna sit eu magna Lorem fugiat. Aliquip fugiat aute magna eu et
-              excepteur anim laboris commodo ut officia amet incididunt. Cillum
-              Lorem proident minim ut et.
+            <div
+              className={`w-1/2 pl-20 text-white text-sm 2xl:text-2xl ${quintissential.className}`}
+            >
+              <div className="">
+                <div className="pb-10">
+                  Amet duis sint adipisicing nostrud adipisicing labore mollit
+                  tempor sunt reprehenderit voluptate. Proident ut veniam
+                  consectetur deserunt do commodo culpa ex cupidatat Lorem id.
+                  Sunt excepteur consectetur magna sit eu magna Lorem fugiat.
+                  Aliquip fugiat aute magna eu et excepteur anim laboris commodo
+                  ut officia amet incididunt. Cillum Lorem proident minim ut et.
+                  Lorem id. Sunt excepteur consectetur magna sit eu magna Lorem
+                  fugiat. Aliquip fugiat aute magna eu et excepteur anim laboris
+                  commodo ut officia amet incididunt. Cillum Lorem proident
+                  minim ut et.
+                </div>
+                <div>
+                  Lorem proident minim ut et. Lorem id. Sunt excepteur
+                  consectetur magna sit eu magna Lorem fugiat. Aliquip fugiat
+                  aute magna eu et excepteur anim laboris commodo ut officia
+                  amet incididunt. Cillum Lorem proident minim ut et.
+                </div>
+              </div>
             </div>
           </div>
         </div>
