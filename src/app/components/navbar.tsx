@@ -9,6 +9,9 @@ export default function Navbar() {
           <Link href="/" className="hover:text-sunset">
             Home
           </Link>
+          <Link href="/about" className="hover:text-sunset">
+            About
+          </Link>
           <Link href="/contact" className="hover:text-sunset">
             Contact
           </Link>

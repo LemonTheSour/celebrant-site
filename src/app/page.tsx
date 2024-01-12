@@ -64,27 +64,25 @@ export default function Home() {
               />
             </div>
             <div
-              className={`w-1/2 pl-20 text-white text-sm 2xl:text-2xl ${quintissential.className}`}
+              className={`w-1/2 pl-20 text-white h-80 text-sm 2xl:text-2xl overflow-auto ${quintissential.className}`}
             >
-              <div className="">
-                <div className="pb-10">
-                  Amet duis sint adipisicing nostrud adipisicing labore mollit
-                  tempor sunt reprehenderit voluptate. Proident ut veniam
-                  consectetur deserunt do commodo culpa ex cupidatat Lorem id.
-                  Sunt excepteur consectetur magna sit eu magna Lorem fugiat.
-                  Aliquip fugiat aute magna eu et excepteur anim laboris commodo
-                  ut officia amet incididunt. Cillum Lorem proident minim ut et.
-                  Lorem id. Sunt excepteur consectetur magna sit eu magna Lorem
-                  fugiat. Aliquip fugiat aute magna eu et excepteur anim laboris
-                  commodo ut officia amet incididunt. Cillum Lorem proident
-                  minim ut et.
-                </div>
-                <div>
-                  Lorem proident minim ut et. Lorem id. Sunt excepteur
-                  consectetur magna sit eu magna Lorem fugiat. Aliquip fugiat
-                  aute magna eu et excepteur anim laboris commodo ut officia
-                  amet incididunt. Cillum Lorem proident minim ut et.
-                </div>
+              <div className="pb-10">
+                Amet duis sint adipisicing nostrud adipisicing labore mollit
+                tempor sunt reprehenderit voluptate. Proident ut veniam
+                consectetur deserunt do commodo culpa ex cupidatat Lorem id.
+                Sunt excepteur consectetur magna sit eu magna Lorem fugiat.
+                Aliquip fugiat aute magna eu et excepteur anim laboris commodo
+                ut officia amet incididunt. Cillum Lorem proident minim ut et.
+                Lorem id. Sunt excepteur consectetur magna sit eu magna Lorem
+                fugiat. Aliquip fugiat aute magna eu et excepteur anim laboris
+                commodo ut officia amet incididunt. Cillum Lorem proident minim
+                ut et.
+              </div>
+              <div>
+                Lorem proident minim ut et. Lorem id. Sunt excepteur consectetur
+                magna sit eu magna Lorem fugiat. Aliquip fugiat aute magna eu et
+                excepteur anim laboris commodo ut officia amet incididunt.
+                Cillum Lorem proident minim ut et.
               </div>
             </div>
           </div>

@@ -4,7 +4,6 @@ import Header from "../header";
 export interface slideProps {
   text: String;
   heading: String;
-  icon: String;
 }
 
 const quintissential = Quintessential({
@@ -12,7 +11,7 @@ const quintissential = Quintessential({
   subsets: ["latin"],
 });
 
-export default function Slide({ text, heading, icon }: slideProps) {
+export default function Slide({ text, heading }: slideProps) {
   return (
     <div className="flex min-h-full min-w-full text-white justify-center text-center">
       <div className="pt-20 w-5/6">

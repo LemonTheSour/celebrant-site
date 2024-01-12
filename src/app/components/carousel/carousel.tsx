@@ -27,12 +27,7 @@ export default function Carousel() {
         style={{ transform: `translateX(-${curr * 100}%)` }}
       >
         {slides.map((slide) => (
-          <Slide
-            key={slide.key}
-            text={slide.text}
-            heading={slide.header}
-            icon={slide.icon}
-          />
+          <Slide key={slide.key} text={slide.text} heading={slide.header} />
         ))}
       </div>
       <div className="flex absolute inset-0 items-center justify-between p-4">
