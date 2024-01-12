@@ -2,12 +2,12 @@
   {
     "key": "1",
     "question": "What Is Your Pricing?",
-    "answer": "Pricing is determined by some figures I don't have right now, $400 for this thing, $500 for another thing and so on."
+    "answer": "Fees vary based on the type of ceremony, what additional costs are required, travel, etc. There will be no surprises however, and pricing can be discussed at first contact."
   },
   {
     "key": "2",
     "question": "When Are You Available?",
-    "answer": "Your best bet will be to inquire! That said, certain legal requirements mean we need at least 1 months notice."
+    "answer": "Your best bet will be to inquire! Include the date you have in mind in your first contact message, however be advised that certain legal documentation requires at least one months notice to be submitted."
   },
   {
     "key": "3",
@@ -16,23 +16,13 @@
   },
   {
     "key": "4",
-    "question": "What services do you provide?",
-    "answer": "Wedding, Baby Name Days and Vow Renewals, while I am qualified to handle funerals, if you are in the kalgoorlie-boulder region I can pass on recommendations."
-  },
-  {
-    "key": "5",
-    "question": "How far in advance should I send out invitations?",
-    "answer": "Wedding invitations should be sent out at least 9 months in advance."
+    "question": "How far in advance should I contact you?",
+    "answer": "It is preferable to have decided on your wedding date and location of your Ceremony before you contact me. Just keep in mind the Notice of intended Marriage must be signed a minimum of a Month before the wedding date that you decided on. "
   },
   {
     "key": "6",
     "question": "Where are you located?",
     "answer": "I operate out of kalgoorlie-boulder, but am available to travel to surrounding regions under the the right circumstanes."
-  },
-  {
-    "key": "7",
-    "question": "How long have you been practicing?",
-    "answer": "I've been helping join people together for almost a certain number of years now."
   },
   {
     "key": "8",
@@ -43,6 +33,11 @@
     "key": "9",
     "question": "How can I contact you?",
     "answer": "I can be reached through mobile, email or through direct message from our facebook page."
+  },
+  {
+    "key": "108",
+    "question": "What documents do I need?",
+    "answer": "You will need a Birth Certificate, Driver's License, Passport, any certificates for divorce or death in previous marriage and parents full names and country of birth. If you do not have a Passport, a Drivers License will be required as a form of photo ID. "
   }
   
 ]

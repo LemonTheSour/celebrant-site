@@ -13,10 +13,12 @@ const quintissential = Quintessential({
 
 export default function Slide({ text, heading }: slideProps) {
   return (
-    <div className="flex min-h-full min-w-full text-white justify-center text-center">
+    <div className="flex min-h-full min-w-full text-white justify-center items-center text-center">
       <div className="pt-20 w-5/6">
         <Header text={heading} />
-        <div className={`text-2xl pb-12 ${quintissential.className}`}>
+        <div
+          className={`text-4xl 2xl:text-6xl pb-12 ${quintissential.className}`}
+        >
           {text}
         </div>
       </div>
