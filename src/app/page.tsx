@@ -52,8 +52,8 @@ export default function Home() {
 
       {/* Second Scroll Page */}
       <div className="bg-photo2 bg-no-repeat bg-cover bg-center bg-fixed w-full h-screen z-1">
-        <div className="flex flex-col justify-center items-center pt-20">
-          <Header text="Kalgoorlie Marriage Celebrant" />
+        <div className="flex flex-col justify-center items-center pt-10">
+          <Header text="Kalgoorlie-Boulder Marriage Celebrant" />
           <div className="flex justify-center content-center w-4/6 pl-20 pb-60">
             <div className="w-64 h-80 2xl:h-96 2xl:w-80 relative">
               <Image
@@ -64,25 +64,21 @@ export default function Home() {
               />
             </div>
             <div
-              className={`w-1/2 pl-20 text-white h-80 text-sm 2xl:text-2xl overflow-auto ${quintissential.className}`}
+              className={`w-1/2 pl-20 text-white h-80 text-lg 2xl:text-2xl ${quintissential.className}`}
             >
               <div className="pb-10">
-                Amet duis sint adipisicing nostrud adipisicing labore mollit
-                tempor sunt reprehenderit voluptate. Proident ut veniam
-                consectetur deserunt do commodo culpa ex cupidatat Lorem id.
-                Sunt excepteur consectetur magna sit eu magna Lorem fugiat.
-                Aliquip fugiat aute magna eu et excepteur anim laboris commodo
-                ut officia amet incididunt. Cillum Lorem proident minim ut et.
-                Lorem id. Sunt excepteur consectetur magna sit eu magna Lorem
-                fugiat. Aliquip fugiat aute magna eu et excepteur anim laboris
-                commodo ut officia amet incididunt. Cillum Lorem proident minim
-                ut et.
+                For a professional, personal and pleasant experience, I'm here
+                to collaborate with you on your special day. No one knows you
+                like you and no one knows weddings like me. Marriage is work,
+                from the very start to the very end. I'm here to take a little
+                bit of that work off your shoulders and help craft an
+                unforgettable day.
               </div>
               <div>
-                Lorem proident minim ut et. Lorem id. Sunt excepteur consectetur
-                magna sit eu magna Lorem fugiat. Aliquip fugiat aute magna eu et
-                excepteur anim laboris commodo ut officia amet incididunt.
-                Cillum Lorem proident minim ut et.
+                Over the months before your wedding, we'll organise all the fine
+                details to make sure your day is especially special. The first
+                consult is free, so don't wait around wondering, send me a
+                message or give me a call to start your journey off right.
               </div>
             </div>
           </div>
